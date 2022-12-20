@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> blackpink by shweta </title>
+	<style type="text/css">
+		*{
+	        font-family: cursive;
+            font-size: 19px;
+            margin-left: 7px;
+		}
+		body{
+			 background-image: url(https://www.slantmagazine.com/wp-content/uploads/2020/10/album.jpg);
+			 background-size: cover;
+			 background-repeat: no-repeat;
+			 background-position: center;
+			 background-attachment: fixed;
+		}
+		.box{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 90vh;
+		}
+		.container{
+			width: 350px;
+			display: flex;
+			flex-direction: column;
+			padding: 0px 15px 0px 15px ;
+        }
+        span{
+            color:#fff;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0 10px 0;
+             }
+          header{    
+            color: ghostwhite;
+            font-size: 31px;
+            font-family: cursive;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0 10px 0;}
+         .input-field{
+           	display: flex;
+           	flex-direction: column;
+               }
+          .input{
+             height: 45px;
+             width: 87%;
+             border: none;
+             outline: none;
+             border-radius: 30px;
+             color: honeydew;
+             margin-bottom: 28px;
+             padding: 0 0 0 45px;
+             background: rgba(255, 255, 255, 0.1);
+                                         }
+         
+           .submit{
+             border: none;
+             border-radius: 15px;
+             font-size: 15px;
+             height: 45px;
+             outline: none;
+             width: 100%;
+             background: rgba(266,125, 159,0.5);
+             cursor: pointer;
+             transition: .3s;
+           }
+          .submit:hover{
+             box-shadow: 1px 5px 7px 1px rgba(0,0,0, 0.2);
+             background: rgba(255, 255, 255,0.1)
+           }
+           .bottom{
+           	 display: flex;
+             flex-direction: row;
+           	 justify-content: center;
+           	 font-size: small;
+           	 color: pink;
+           	 margin-top: 10px;
+           }
+           .left{
+           	 display:flex ;  }
+          label a{
+          	 color: lightpink;
+           	 text-decoration: none;}
+	</style>
+</head>
+<body>
+   <div class="box">
+   	  <div class="container">
+   	  	<div class="top-header">
+   	  		<span>Have an ACCOUNT?</span>
+   	  		<header>login</header>
+   	  	</div>
+   	  	    <div class="input-field">
+   	  	    	<input type="text"
+   	  	    	       class="input" 
+   	  	    	       placeholder="BLINK NAME " 
+   	  	    	       required>
+   	  	    
+     	  	    </div>
+   	  	    <div class="input-field">
+   	  	    	<input type="password" 
+   	  	    	       class="input" 
+   	  	    	       placeholder="Password" required>
+   	  	    
+   	  	    </div>
+   	  	    <form action="home.html">
+   	  	    <div class="input-field">
+   	  	    	<input type="submit" 
+   	  	    	       class="submit" 
+   	  	    	       value="login"
+   	  	    	        >
+   	  	    </form>
+   	  	    </div>
+        <div class="bottom">
+        	<div class="left">
+        		<input type="checkbox" 
+        		       id="check" >
+        		<label for="check"> Remember Me </label>
+        	</div>
+
+        	<div class="right"><a href="#"
+        	 style="text-decoration: none;
+                    color: deeppink; margin-right: 1px;"> Forget Password ?</a></div>
+        </div>
+   	  </div>
+   </div>
+</body> 
+</html>
